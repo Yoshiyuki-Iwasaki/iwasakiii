@@ -1,11 +1,13 @@
 import React from 'react';
 import Sidebar from './Sidebar';
 import Header from "./Header";
-import styled from 'styled-components';
+import Meta from './Head';
+import styled from "styled-components";
 
 const Layout: React.FC<any> = ({ children }) => {
   return (
     <Main>
+      <Meta />
       <Header />
       <Body>
         <Sidebar />
