@@ -4,14 +4,15 @@
   "private": true,
   "scripts": {
     "dev": "npx http-server ./out",
-    "build": "next build && next export",
+    "build": "next build && next export && npx http-server ./out",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
     "@types/react": "^17.0.27",
