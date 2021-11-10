@@ -21,6 +21,10 @@ export default Layout;
 
 const Main = styled.main``;
 const Body = styled.div`
+  margin: 40px auto 0;
+  max-width: 600px;
   display: flex;
 `;
-const RightArea = styled.div``;
+const RightArea = styled.div`
+  width: 70%;
+`;
