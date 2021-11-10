@@ -30,7 +30,7 @@ export default Sidebar
 
 
 const Inner = styled.div`
-  width: 30%;
+  width: 20%;
 `;
 const List = styled.ul``;
 const ListItem = styled.li`

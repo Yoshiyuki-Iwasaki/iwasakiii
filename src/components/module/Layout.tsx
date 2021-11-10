@@ -26,5 +26,5 @@ const Body = styled.div`
   display: flex;
 `;
 const RightArea = styled.div`
-  width: 70%;
+  width: 80%;
 `;
