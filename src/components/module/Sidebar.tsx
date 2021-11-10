@@ -29,7 +29,17 @@ const Sidebar = () => {
 export default Sidebar
 
 
-const Inner = styled.div``;
+const Inner = styled.div`
+  width: 20%;
+`;
 const List = styled.ul``;
-const ListItem = styled.li``;
-const Text = styled.a``;
+const ListItem = styled.li`
+  margin-top: 20px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+`;
+const Text = styled.a`
+  font-size: 15px;
+`;
