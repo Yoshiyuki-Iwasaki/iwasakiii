@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Layout from '../components/module/Layout';
 
-export default function Home() {
-  return (
-    <div>Hello world</div>
-  )
+const Home = () => {
+  return <Layout>Home</Layout>;
 }
+
+export default Home;
