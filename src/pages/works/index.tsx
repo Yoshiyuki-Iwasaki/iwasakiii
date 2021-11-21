@@ -8,34 +8,46 @@ const Works = () => {
     <Layout>
       <List>
         <ListItem>
-          <Link href="/" as="/" passHref>
+          <Link
+            href="https://chatter-197df.web.app/"
+            as="https://chatter-197df.web.app/"
+            passHref
+          >
             <Inner>
-              <EyeCatch></EyeCatch>
               <TextArea>
-                <Date>2012/11/10</Date>
-                <Title>タイトルが入ります。タイトルが入ります。</Title>
+                <Title>chatter</Title>
+                <Description>chatアプリ</Description>
+                <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
               </TextArea>
             </Inner>
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/" as="/" passHref>
+          <Link
+            href="https://homete-d12f0.web.app/"
+            as="https://homete-d12f0.web.app/"
+            passHref
+          >
             <Inner>
-              <EyeCatch></EyeCatch>
               <TextArea>
-                <Date>2012/11/10</Date>
-                <Title>タイトルが入ります。タイトルが入ります。</Title>
+                <Title>homete</Title>
+                <Description>snsアプリ</Description>
+                <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
               </TextArea>
             </Inner>
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/" as="/" passHref>
+          <Link
+            href="https://taskboard-a75c1.web.app"
+            as="https://taskboard-a75c1.web.app"
+            passHref
+          >
             <Inner>
-              <EyeCatch></EyeCatch>
               <TextArea>
-                <Date>2012/11/10</Date>
-                <Title>タイトルが入ります。タイトルが入ります。</Title>
+                <Title>taskboard</Title>
+                <Description>task管理アプリ</Description>
+                <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
               </TextArea>
             </Inner>
           </Link>
@@ -62,20 +74,21 @@ const ListItem = styled.li`
   }
 `;
 const Inner = styled.a``;
-const EyeCatch = styled.div`
-  width: 100%;
-  height: 110px;
-  background: #fff;
-`;
 const TextArea = styled.div`
   padding: 10px;
-`;
-const Date = styled.p`
-  font-size: 13px;
-  color: #333;
 `;
 const Title = styled.h2`
   margin-top: 10px;
   font-size: 15px;
+  color: #333;
+`;
+const Description = styled.p`
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+`;
+const Comment = styled.p`
+  margin-top: 5px;
+  font-size: 14px;
   color: #333;
 `;

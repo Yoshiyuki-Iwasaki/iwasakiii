@@ -10,28 +10,42 @@ const About = () => {
         <HeaderBg></HeaderBg>
         <Icon></Icon>
         <Description>
-          説明が入ります。説明が入ります。説明が入ります。 説明が入ります。
-          説明が入ります。 説明が入ります。 説明が入ります。 説明が入ります。
-          説明が入ります。 説明が入ります。 説明が入ります。 説明が入ります。
+          Software Engineer / React, TypeScriptが好きです。
         </Description>
         <List>
           <ListItem>
-            <Link href="/" as="/" passHref>
+            <Link
+              href="https://twitter.com/_kiiw_"
+              as="https://twitter.com/_kiiw_"
+              passHref
+            >
               <Text>Twitter</Text>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/" as="/" passHref>
+            <Link
+              href="https://www.facebook.com/profile.php?id=100019753176136"
+              as="https://www.facebook.com/profile.php?id=100019753176136"
+              passHref
+            >
               <Text>Facebook</Text>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/" as="/" passHref>
+            <Link
+              href="https://www.wantedly.com/id/yoshiyuki_iwasaki"
+              as="https://www.wantedly.com/id/yoshiyuki_iwasaki"
+              passHref
+            >
               <Text>Wantedly</Text>
             </Link>
           </ListItem>
           <ListItem>
-            <Link href="/" as="/" passHref>
+            <Link
+              href="https://github.com/Yoshiyuki-Iwasaki"
+              as="https://github.com/Yoshiyuki-Iwasaki"
+              passHref
+            >
               <Text>Github</Text>
             </Link>
           </ListItem>
