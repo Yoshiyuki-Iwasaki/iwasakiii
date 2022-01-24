@@ -1,7 +1,7 @@
-import React from "react";
-import Link from "next/link";
-import Layout from "../../components/module/Layout";
-import styled from "styled-components";
+import React from 'react';
+import Link from 'next/link';
+import Layout from '../../components/module/Layout';
+import styled from 'styled-components';
 
 const About = () => {
   return (
@@ -10,7 +10,7 @@ const About = () => {
         <HeaderBg></HeaderBg>
         <Icon></Icon>
         <Description>
-          Software Engineer / React, TypeScriptが好きです。
+          Front-End Engineer / React, TypeScriptが好きです。
         </Description>
         <List>
           <ListItem>
