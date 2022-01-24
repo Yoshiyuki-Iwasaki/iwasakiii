@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Layout from '../../components/module/Layout';
-import Link from 'next/link'
-import styled from "styled-components";
+import Link from 'next/link';
+import styled from 'styled-components';
 
 const Works = () => {
   return (
@@ -9,30 +9,15 @@ const Works = () => {
       <List>
         <ListItem>
           <Link
-            href="https://chatter-197df.web.app/"
-            as="https://chatter-197df.web.app/"
+            href="superchat256864.vercel.app/"
+            as="superchat256864.vercel.app/"
             passHref
           >
             <Inner>
               <TextArea>
-                <Title>chatter</Title>
+                <Title>Superchat</Title>
                 <Description>chatアプリ</Description>
-                <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
-              </TextArea>
-            </Inner>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link
-            href="https://homete-d12f0.web.app/"
-            as="https://homete-d12f0.web.app/"
-            passHref
-          >
-            <Inner>
-              <TextArea>
-                <Title>homete</Title>
-                <Description>snsアプリ</Description>
-                <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
+                <Comment>技術スタック: Next.js x Typescript x Supabase</Comment>
               </TextArea>
             </Inner>
           </Link>
@@ -55,7 +40,7 @@ const Works = () => {
       </List>
     </Layout>
   );
-}
+};
 
 export default Works;
 
