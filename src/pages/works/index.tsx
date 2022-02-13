@@ -16,8 +16,8 @@ const Works = () => {
             <Inner>
               <TextArea>
                 <Title>Superchat</Title>
-                <Description>chatアプリ</Description>
                 <Comment>技術スタック: Next.js x Typescript x Supabase</Comment>
+                <Description>chatアプリ</Description>
               </TextArea>
             </Inner>
           </Link>
@@ -31,8 +31,8 @@ const Works = () => {
             <Inner>
               <TextArea>
                 <Title>taskboard</Title>
-                <Description>task管理アプリ</Description>
                 <Comment>技術スタック: Next.js x Typescript x Firebase</Comment>
+                <Description>task管理アプリ</Description>
               </TextArea>
             </Inner>
           </Link>
@@ -60,20 +60,19 @@ const ListItem = styled.li`
 `;
 const Inner = styled.a``;
 const TextArea = styled.div`
-  padding: 10px;
+  padding: 15px;
 `;
 const Title = styled.h2`
-  margin-top: 10px;
   font-size: 15px;
-  color: #333;
-`;
-const Description = styled.p`
-  margin-top: 5px;
-  font-size: 14px;
   color: #333;
 `;
 const Comment = styled.p`
   margin-top: 5px;
+  font-size: 12px;
+  color: #333;
+`;
+const Description = styled.p`
+  margin-top: 15px;
   font-size: 14px;
   color: #333;
 `;

@@ -1,7 +1,7 @@
-import React from 'react'
-import Link from "next/link";
+import React from 'react';
+import Link from 'next/link';
 import Layout from '../../components/module/Layout';
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Blog = () => {
   return (
@@ -76,7 +76,7 @@ const Blog = () => {
       </List>
     </Layout>
   );
-}
+};
 
 export default Blog;
 
