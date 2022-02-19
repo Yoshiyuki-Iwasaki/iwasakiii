@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link';
 import styled from 'styled-components';
 
@@ -7,13 +7,13 @@ const Sidebar = () => {
     <Inner>
       <List>
         <ListItem>
-          <Link href="/works" as="/works" passHref>
-            <Text>Works</Text>
+          <Link href="/" as="/" passHref>
+            <Text>Blog</Text>
           </Link>
         </ListItem>
         <ListItem>
-          <Link href="/blog" as="/blog" passHref>
-            <Text>Blog</Text>
+          <Link href="/works" as="/works" passHref>
+            <Text>Works</Text>
           </Link>
         </ListItem>
         <ListItem>
@@ -24,10 +24,9 @@ const Sidebar = () => {
       </List>
     </Inner>
   );
-}
+};
 
-export default Sidebar
-
+export default Sidebar;
 
 const Inner = styled.div`
   width: 20%;
