@@ -1,8 +1,8 @@
 import Head from 'next/head';
 
 const Meta = ({
-  title = "Photo Application",
-  description = "This is Photo Application!!!!",
+  title = 'Photo Application',
+  description = 'This is Photo Application!!!!',
 }) => {
   return (
     <Head>

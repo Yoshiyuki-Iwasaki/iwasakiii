@@ -1,5 +1,5 @@
 import React from 'react';
-import Layout from '../../components/module/Layout';
+import Layout from '../../components/templates/layout';
 import Link from 'next/link';
 import styled from 'styled-components';
 
@@ -9,8 +9,8 @@ const Works = () => {
       <List>
         <ListItem>
           <Link
-            href="superchat256864.vercel.app/"
-            as="superchat256864.vercel.app/"
+            href="https://superchat256864.vercel.app/"
+            as="https://superchat256864.vercel.app/"
             passHref
           >
             <Inner>

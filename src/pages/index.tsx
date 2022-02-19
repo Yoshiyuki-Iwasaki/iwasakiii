@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Layout from '../components/module/Layout';
+import Layout from '../components/templates/layout';
 import styled from 'styled-components';
 
 const Home = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import styled from 'styled-components';
+import { Inner, List, ListItem, Text } from './style';
 
 const Sidebar = () => {
   return (
@@ -27,18 +27,3 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
-
-const Inner = styled.div`
-  width: 20%;
-`;
-const List = styled.ul``;
-const ListItem = styled.li`
-  margin-top: 20px;
-
-  &:first-child {
-    margin-top: 0;
-  }
-`;
-const Text = styled.a`
-  font-size: 15px;
-`;
