@@ -1,13 +1,8 @@
 import React from 'react';
-import { Main, Title, DarkModeButton } from './style';
+import Presenter from './presenter';
 
 const Header = () => {
-  return (
-    <Main>
-      <Title>Iwasakiii</Title>
-      <DarkModeButton></DarkModeButton>
-    </Main>
-  );
+  return <Presenter />;
 };
 
 export default Header;
