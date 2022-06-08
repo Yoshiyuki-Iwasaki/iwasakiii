@@ -1,12 +1,18 @@
 import React from 'react';
-import { Main, Title, DarkModeButton } from './style';
+import Link from 'next/link';
+import { Box, Center, Text } from '@chakra-ui/react';
 
 const Presenter = () => {
   return (
-    <Main>
-      <Title>Iwasakiii</Title>
-      <DarkModeButton></DarkModeButton>
-    </Main>
+    <Center py={5}>
+      <Box width="600px">
+        <Link href="/" as="/" passHref>
+          <Text fontSize={22} fontWeight={700}>
+            Iwasakiii
+          </Text>
+        </Link>
+      </Box>
+    </Center>
   );
 };
 

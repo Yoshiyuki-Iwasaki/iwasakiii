@@ -3,18 +3,20 @@ import Sidebar from '../sidebar';
 import Header from '../header';
 import Meta from '../head';
 import { LayoutType } from './type';
-import { Main, Body, RightArea } from './style';
+import { Center, Box, Flex } from '@chakra-ui/react';
 
 const Presenter: FC<LayoutType> = ({ children }) => {
   return (
-    <Main>
+    <Box>
       <Meta />
       <Header />
-      <Body>
-        <Sidebar />
-        <RightArea>{children}</RightArea>
-      </Body>
-    </Main>
+      <Center mt={5}>
+        <Flex width="600px">
+          <Sidebar />
+          <Box width="80%">{children}</Box>
+        </Flex>
+      </Center>
+    </Box>
   );
 };
 

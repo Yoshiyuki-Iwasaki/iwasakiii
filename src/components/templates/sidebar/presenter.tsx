@@ -1,23 +1,21 @@
 import React from 'react';
 import Link from 'next/link';
-import { Inner, List, ListItem, Text } from './style';
+import { Text, Box } from '@chakra-ui/react';
 
 const Presenter = () => {
   return (
-    <Inner>
-      <List>
-        <ListItem>
-          <Link href="/top" as="/" passHref>
-            <Text>Blog</Text>
-          </Link>
-        </ListItem>
-        <ListItem>
-          <Link href="/about" as="/about" passHref>
-            <Text>About</Text>
-          </Link>
-        </ListItem>
-      </List>
-    </Inner>
+    <Box width={'20%'}>
+      <Box>
+        <Link href="/" as="/" passHref>
+          <Text fontSize={'14px'}>Blog</Text>
+        </Link>
+      </Box>
+      <Box mt={5}>
+        <Link href="/about" as="/about" passHref>
+          <Text fontSize={'14px'}>About</Text>
+        </Link>
+      </Box>
+    </Box>
   );
 };
 
