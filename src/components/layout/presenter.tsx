@@ -11,7 +11,7 @@ const Presenter: FC<LayoutType> = ({ children }) => {
       <Meta />
       <Header />
       <Center mt={5}>
-        <Flex width="600px">
+        <Flex width="800px">
           <Sidebar />
           <Box width="80%">{children}</Box>
         </Flex>

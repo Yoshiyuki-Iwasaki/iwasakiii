@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import Layout from '../../components/templates/layout';
+import Layout from '../../components/layout';
 import { Box, Center, Text } from '@chakra-ui/react';
 
 const Presenter = () => {
