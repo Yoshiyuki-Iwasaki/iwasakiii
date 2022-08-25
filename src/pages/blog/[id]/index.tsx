@@ -3,7 +3,7 @@ import { client } from '../../../libs/client';
 import Presenter from './presenter';
 
 export default function BlogId({ blog }) {
-  return <Presenter blog={blog} />;
+  return blog && <Presenter blog={blog} />;
 }
 
 // 静的生成のためのパスを指定します

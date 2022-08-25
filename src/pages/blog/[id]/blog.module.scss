@@ -1,0 +1,58 @@
+.className {
+  //スタイルを当てたい要素にCSSを指定する
+  h1 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e7ecf2;
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  h2 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding-bottom: 0.3em;
+    border-bottom: 1px solid #e7ecf2;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  h3 {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 1.25;
+  }
+
+  p {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: '##000';
+  }
+
+  a {
+    margin-bottom: 10px;
+    font-size: 18px;
+    line-height: 1.8;
+    color: '##000';
+  }
+
+  ul {
+    line-height: 2;
+    padding-left: 1em;
+  }
+
+  ol {
+    line-height: 2;
+    padding-left: 1em;
+  }
+
+  li {
+    fontsize: '18px';
+  }
+}
