@@ -1,6 +1,6 @@
 import { createClient } from 'microcms-js-sdk';
 
 export const client = createClient({
-  serviceDomain: process.env.NEXT_PUBLIC_SERVICE_DOMAIN,
-  apiKey: process.env.NEXT_PUBLIC_API_KEY,
+  serviceDomain: 'kiiwblog',
+  apiKey: 'c9780ff58c064a54810aaa2771f1c337bd67',
 });
