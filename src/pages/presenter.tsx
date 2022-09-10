@@ -1,25 +1,26 @@
 import React from 'react';
 import Layout from '../components/layout';
-import { Box, Text, Link } from '@chakra-ui/react';
+import Link from 'next/link';
+import style from './pages.module.scss';
 
 const Presenter = ({ blogs }) => {
   return (
     <Layout>
-      <Box width="95%">
+      <ul>
         {blogs &&
           blogs.map((blog) => (
-            <Box key={blog.id} mt={'15px'}>
-              <Link href={`/blog/${blog.id}`}>
-                <Box>
-                  <Text fontSize={'12px'}>{blog.publishedAt}</Text>
-                  <Text mt={'10px'} fontSize={'14px'}>
-                    {blog.title}
-                  </Text>
-                </Box>
+            <li key={blog.id} className={style.list}>
+              <Link href={`/blog/${blog.id}`} as={`/blog/${blog.id}`} passHref>
+                <a>
+                  <span className={style.date}>
+                    {new Date(blog.publishedAt).toLocaleDateString()}
+                  </span>
+                  <span className={style.ttl}>{blog.title}</span>
+                </a>
               </Link>
-            </Box>
+            </li>
           ))}
-      </Box>
+      </ul>
     </Layout>
   );
 };
