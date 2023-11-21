@@ -20,7 +20,6 @@ module.exports = {
     ecmaFeatures: { jsx: true },
     ecmaVersion: 2021,
     sourceType: 'module',
-    project: './tsconfig.json',
   },
   plugins: ['@typescript-eslint', 'react'],
   rules: {

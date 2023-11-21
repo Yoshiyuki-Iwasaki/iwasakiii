@@ -11,12 +11,10 @@ const Presenter = ({ blogs }) => {
           blogs.map((blog) => (
             <li key={blog.id} className={style.list}>
               <Link href={`/blog/${blog.id}`} as={`/blog/${blog.id}`} passHref>
-                <a>
-                  <span className={style.date}>
-                    {new Date(blog.publishedAt).toLocaleDateString()}
-                  </span>
-                  <span className={style.ttl}>{blog.title}</span>
-                </a>
+                <span className={style.date}>
+                  {new Date(blog.publishedAt).toLocaleDateString()}
+                </span>
+                <span className={style.ttl}>{blog.title}</span>
               </Link>
             </li>
           ))}

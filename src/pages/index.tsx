@@ -2,7 +2,6 @@ import Presenter from './presenter';
 import { client } from '../libs/client';
 
 const Home = ({ blogs }) => {
-  console.log('blogs', blogs);
   return <Presenter blogs={blogs} />;
 };
 

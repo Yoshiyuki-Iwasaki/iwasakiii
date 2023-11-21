@@ -6,8 +6,8 @@ const Presenter = () => {
   return (
     <header className={style.header}>
       <div className={style.inner}>
-        <Link href="/" as="/" passHref>
-          <a className={style.txt}>猫好きエンジニアブログ</a>
+        <Link href="/" as="/" passHref className={style.txt}>
+          猫好きエンジニアブログ
         </Link>
       </div>
     </header>
