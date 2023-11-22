@@ -1,11 +1,13 @@
 .ttl {
   margin-top: 15px;
   font-size: 18px;
+  color: #000;
   font-weight: 700;
 }
 
 .date {
   font-size: 14px;
+  color: #000;
 }
 
 .className {
@@ -17,6 +19,7 @@
     padding-bottom: 0.3em;
     border-bottom: 1px solid #e7ecf2;
     font-size: 2em;
+    color: #000;
     font-weight: 600;
     line-height: 1.25;
   }
@@ -27,6 +30,7 @@
     padding-bottom: 0.3em;
     border-bottom: 1px solid #e7ecf2;
     font-size: 1.5em;
+    color: #000;
     font-weight: 600;
     line-height: 1.25;
   }
@@ -35,6 +39,7 @@
     margin-top: 24px;
     margin-bottom: 16px;
     font-size: 1.25em;
+    color: #000;
     font-weight: 600;
     line-height: 1.25;
   }
@@ -43,14 +48,14 @@
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 1.8;
-    color: '##000';
+    color: #000;
   }
 
   a {
     margin-bottom: 10px;
     font-size: 18px;
     line-height: 1.8;
-    color: '##000';
+    color: #000;
   }
 
   ul {
@@ -64,6 +69,6 @@
   }
 
   li {
-    fontsize: '18px';
+    font-size: 18px;
   }
 }
